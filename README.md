@@ -1,5 +1,7 @@
 # My first React app (Social Network project)
 
+## This project in development... You can see deployment of this project later, when it will be ready. 
+
 
 ## Available Scripts
 
