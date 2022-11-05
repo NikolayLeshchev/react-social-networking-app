@@ -1,7 +1,7 @@
-.item {
+.post {
   color: aqua;
 }
-.item img {
+.post img {
   width: 50px;
   border-radius: 50%;
 }

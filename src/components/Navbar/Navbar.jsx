@@ -1,22 +1,21 @@
 import s from "./Navbar.module.css";
-console.log(s);
 function Navbar() {
   return (
     <nav className={s.nav}>
       <div className={s.item}>
-        <a href="#p">Profile</a>
+        <a href="/profile">Profile</a>
       </div>
       <div className={s.item}>
-        <a href="#m">Messages</a>
+        <a href="/dialogs">Messages</a>
       </div>
       <div className={s.item}>
-        <a href="#n">News</a>
+        <a href="/news">News</a>
       </div>
       <div className={s.item}>
-        <a href="#m">Music</a>
+        <a href="#d">Music</a>
       </div>
       <div className={s.item}>
-        <a href="#s">Settings</a>
+        <a href="#d">Settings</a>
       </div>
     </nav>
   );

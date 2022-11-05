@@ -2,7 +2,7 @@ import s from "./Post.module.css";
 
 function Post(props) {
   return (
-    <div className={s.item}>
+    <div className={s.post}>
       <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeBmbjZ16b5ywX0bu0UI7ai3KSShSqmllwiqbeGSeOIPP43YD-QP1BM02bAqNytRLvtes&usqp=CAU"
         alt="user"
