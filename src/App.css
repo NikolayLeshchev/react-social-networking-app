@@ -19,3 +19,6 @@
   grid-area: c;
   background: rgb(230, 220, 180);
 }
+.active {
+  color: rgb(238, 255, 0) !important;
+}
