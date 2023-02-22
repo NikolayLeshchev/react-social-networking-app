@@ -1,0 +1,29 @@
+.postsSection{
+  padding: 0 30px 30px;
+}
+textarea{
+  width: 50%;
+  border-radius: 10px;
+  min-height: 50px;
+}
+.addPost{
+  display: flex;
+align-items: center;
+}
+button{
+  margin-left: 15px;
+  padding: 0.6rem 1.7rem;
+  border-radius: 5px;
+  color: #fff;
+  background: #386cfa;
+  border: none;
+  box-shadow: 1px 1px 3px #01113d;
+}
+button:hover{
+  background: #033ddf;
+  box-shadow: 1px 2px 5px #000000;
+}
+button:active{
+  background: #032172;
+    box-shadow: none;
+}

@@ -1,17 +1,28 @@
+.dialogsSection{
+  padding: 0 30px 30px;
+}
 .dialogs {
   display: grid;
   grid-template-columns: 2fr 10fr;
 }
 .dialogsItems {
-  padding: 10px;
 }
 .dialogsItems .active {
   color: rgb(255, 123, 0);
 }
 .dialog {
+  margin-bottom: 5px;
 }
 .messages {
-  padding: 10px;
 }
 .message {
+    margin-bottom: 5px;
+}
+.activeDialog{
+font-weight: bold;
+  color: #000;
+}
+.dialogItem{
+  color: #000;
+  text-decoration: none;
 }

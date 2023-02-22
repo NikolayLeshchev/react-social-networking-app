@@ -1,7 +1,19 @@
 .post {
-  color: aqua;
+  padding: 20px;
+  background: #ffffffa9;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+.postMain{
+  display: flex;
+}
+.postText{
+  margin-left: 15px;
 }
 .post img {
   width: 50px;
   border-radius: 50%;
+}
+.likes{
+  margin-top: 10px;
 }

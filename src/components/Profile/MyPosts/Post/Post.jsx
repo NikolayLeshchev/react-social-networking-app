@@ -3,12 +3,16 @@ import s from "./Post.module.css";
 function Post(props) {
   return (
     <div className={s.post}>
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeBmbjZ16b5ywX0bu0UI7ai3KSShSqmllwiqbeGSeOIPP43YD-QP1BM02bAqNytRLvtes&usqp=CAU"
+      <div className={s.postMain}>
+        <img
+        src={props.photo}
         alt="user"
       />
-      {props.message}
-      <div>
+      <p className={s.postText}>{props.message}</p>
+      
+      </div>
+      
+      <div className={s.likes}>
         <span>{props.likeCount} Likes</span>
       </div>
     </div>
