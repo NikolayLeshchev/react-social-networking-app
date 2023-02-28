@@ -1,0 +1,26 @@
+.bgImg {
+  width: 100%;
+  height: 150px;
+}
+.profilePhoto {
+  max-width: 120px;
+border-radius: 60px;
+box-shadow: 0 0 2px #000;
+}
+.name{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.personalData{
+  margin-left: 25px;
+}
+.profileInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.profileDescription{
+ max-width: 90%;
+}

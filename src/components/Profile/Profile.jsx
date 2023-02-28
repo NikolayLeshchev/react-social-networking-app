@@ -1,20 +1,6 @@
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import s from "./Profile.module.css";
-
-const ProfileInfo = (props)=>{
-  return (<div className={s.profileInfo}>
-    <img
-      className={s.profilePhoto}
-      src={props.photo}
-      alt="profileImg"
-    />
-    <div className={s.personalData}>
-      <p className={s.name}>{props.name + ' ' + props.surname}</p>
-      <p className={s.profileDescription}>{props.description}</p>
-    </div>
-    
-  </div>)
-}
 
 function Profile() {
   return (

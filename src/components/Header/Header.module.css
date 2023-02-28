@@ -3,7 +3,13 @@
   background: rgba(94, 217, 255, 0.452);
 }
 .logo {
-  max-width: 50px;
-  padding: 5px;
-  
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-left: 20px;
+  line-height: 60px;
+}
+span{
+  color: rgb(74, 132, 255);
 }
